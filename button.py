@@ -6,12 +6,9 @@ GPIO.setmode(GPIO.BCM)
 yellow = 22
 button = 12
 
-while wait_for_press():
-	if button.is_pressed:
-		print("On")
-		yellow.on()
-	else:
-		print("Off")
-		yellow.off()
+GPIO.setup(12, RPIO.IN, pull_up_down = GPIO.PUD_UP)
+
+if GPIO.input(button) == False:
+	print("Working")
 
 GPIO.cleanup()
