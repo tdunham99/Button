@@ -6,7 +6,7 @@ GPIO.setmode(GPIO.BCM)
 blinkCount = 3
 count = 0
 yellow = 22
-button = 5
+button = 12
 
 # Setup the pin the LED is connected to
 GPIO.setup(yellow, GPIO.OUT)
