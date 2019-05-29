@@ -7,3 +7,8 @@ Pressing one button does nothing; pressing two buttons at the same time turns on
 
 Reflection:
 For some reason, the button would always wobble into place and the program would work a percentage of the time. Turns out that for every component that belongs in the breadboard, they must fit snug into the hole.
+
+
+Video:
+
+https://gfycat.com/felineelderlyfallowdeer
